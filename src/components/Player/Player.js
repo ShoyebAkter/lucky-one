@@ -5,7 +5,7 @@ import "./Player.css"
 
 const Player = ({player,handleAddToCart}) => {
     const {photo,age,name}=player;
-    console.log(photo)
+    // console.log(photo)
     return (
         <div className='player'>
             <img src={photo} alt=""></img>

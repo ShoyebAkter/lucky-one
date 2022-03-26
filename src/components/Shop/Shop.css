@@ -7,16 +7,3 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
-.choose{
-    color: #29DE92;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    margin-bottom: 5px;
-}
-.reset{
-    color: #E33E5A;
-    padding: 8px;
-    border-radius: 10px;
-    border: none;
-}
