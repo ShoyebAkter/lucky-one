@@ -1,26 +1,56 @@
 [
     {
         "id":"1",
-        "photo": "photos/messi.jpg",
-        "name":"Messi",
-        "age": 38
+        "photo": "photos/eriksen.jpg",
+        "name":"Cristian Eriksen",
+        "age": 30
     },
     {
         "id":"2",
-        "photo":"photos/eriksen.jpg",
-        "name":"Cristian Eriksen",
-        "age": 38
+        "photo":"photos/janina.webp",
+        "name":"Shoyeb",
+        "age": 31
     },
     {
         "id":"3",
         "photo": "photos/jota.webp",
         "name":"Diago jota",
-        "age": 38
+        "age": 32
     },
     {
         "id":"4",
         "photo": "photos/lewandowski.webp",
         "name":"Robert Lewandowski",
+        "age": 33
+    },
+    {
+        "id":"5",
+        "photo": "photos/martinez.webp",
+        "name":"Martinez",
+        "age": 34
+    },
+    {
+        "id":"6",
+        "photo": "photos/mbappe.jpg",
+        "name":"Mbappe",
+        "age": 35
+    },
+    {
+        "id":"7",
+        "photo": "photos/messi.jpg",
+        "name":"Lionel Messi",
+        "age": 36
+    },
+    {
+        "id":"8",
+        "photo": "photos/neymar.jpg",
+        "name":"Neymar",
+        "age": 37
+    },
+    {
+        "id":"9",
+        "photo": "photos/pele.jpg",
+        "name":"Pele",
         "age": 38
     }
 

@@ -3,18 +3,8 @@ import React, { useState } from 'react';
 import "./Cart.css"
 
 const Cart = (props) => {
-    const {cart}=props;
-    const[newOne,setNewOne]=useState([]);
-    console.log(cart);
-    const chooseOne=()=>{
-        const num=Math.floor(Math.random()*3);
-        newOne=[cart[num]];
-        <div>{newOne.name}</div>
-        
-    }
-    const reload=()=>{
-        reload=window.location.reload()
-    }
+    const {cart,chooseOne,reload,newOne}=props;
+    
     
     return (
         <div className='players-cart'>
@@ -27,13 +17,21 @@ const Cart = (props) => {
                     </div>
                 ))
             }
-            <div>{cart.length>4 && <div>{alert("can not add more than 4 player")}</div>}</div>
-            <div >
-                <button onClick={chooseOne}   className='choose'> Choose 1 player</button>
+
+            <div className='choosen'>
+                <p >Chosen player</p>
+                {
+                    <div>{newOne.name}</div>
+                }
+                <button onClick={chooseOne}   className='choose'> Choose Favourite player</button>
                 </div>
                 <div>
                     <button onClick={reload}  className='reset'>Choose Again</button>
                 </div>
+                <div className='question'>React works in declarative code. To show what we mean by declarative code,
+                     we want you to imagine the following code expressed as an app.
+                      What you picture could look like the screen below, with a navbar, a header, a filter, and a list.
+                     That's because each line of code declares what each element of the app is.</div>
         </div>
     );
 };

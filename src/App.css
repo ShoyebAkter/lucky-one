@@ -1,7 +1,11 @@
 /* .App {
   text-align: center;
 } */
-
+.header{
+  text-align: center;
+  color: white;
+  background-color:#282c34 ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

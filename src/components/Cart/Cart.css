@@ -13,3 +13,10 @@
     border: none;
     cursor: pointer;
 }
+
+.choosen{
+    color: #29DE92;
+}
+.question{
+    background-color: rgb(26, 139, 177);
+}

@@ -7,7 +7,19 @@ const Shop = () => {
     
     const [players,setplayers]=useState([]);
     const [cart, setCart] = useState([]);
+    let[newOne,setNewOne]=useState([]);
     console.log(cart);
+    const chooseOne=()=>{
+        const num=Math.floor(Math.random()*4);
+        console.log(num)
+        newOne=cart[num];
+        setNewOne(newOne);
+    }
+    const reload=()=>{
+        const newCart=[];
+        setCart(newCart);
+        setNewOne(newCart);
+    }
 
     
     useEffect(()=>{
@@ -17,8 +29,16 @@ const Shop = () => {
     },[]);
 
     const handleAddToCart = (player) =>{
-        const newCart = [...cart, player];
-        console.log(newCart)
+        let newCart=[];
+        const exist =cart.find(selectedPlayer=>selectedPlayer.id===player.id)
+        if(cart.length>3){
+            alert("only 4 items are accepted");
+            newCart = [...cart, player];
+        }else if(!exist){
+            newCart=[...cart,player];
+        }else{
+            newCart=[...cart];
+        }
         setCart(newCart);
     }
     
@@ -30,11 +50,14 @@ const Shop = () => {
                     key={player.id}
                     player={player}
                     handleAddToCart={handleAddToCart}
+    
                     ></Player>)
                 }
             </div>
             <div >
-                <Cart cart={cart} setCart={setCart}></Cart>
+                <Cart cart={cart} chooseOne={chooseOne}
+                  reload={reload} newOne={newOne}
+                   setCart={setCart}></Cart>
             </div>
         </div>
     );
