@@ -16,7 +16,10 @@ const Question = () => {
                     <p><strong>Ans: </strong>useState is a Hook that allows you to have state variables in
                      functional components. You pass the initial state to this function
                       and it returns a variable with the current state value (not necessarily the initial state)
-                     and another function to update this value.</p>
+                     and another function to update this value.The useState hook allows us declare
+                      one or more state variables in function components. Under the hood,
+                       React keeps track of these state variables and
+                      ensures they stay up-to-date on subsequent re-renders of the component</p>
                 </div>
         </div>
     );
