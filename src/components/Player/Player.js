@@ -8,7 +8,7 @@ const Player = ({player,handleAddToCart}) => {
     console.log(photo)
     return (
         <div className='player'>
-            <img src="photos/messi.jpg" alt=""></img>
+            <img src={photo} alt=""></img>
             <div className='player-info'>
             <p className='player-name'>Name: {name}</p>
             <p>Age: {age}</p>
