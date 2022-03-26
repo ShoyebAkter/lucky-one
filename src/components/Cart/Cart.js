@@ -28,10 +28,7 @@ const Cart = (props) => {
                 <div>
                     <button onClick={reload}  className='reset'>Choose Again</button>
                 </div>
-                <div className='question'>React works in declarative code. To show what we mean by declarative code,
-                     we want you to imagine the following code expressed as an app.
-                      What you picture could look like the screen below, with a navbar, a header, a filter, and a list.
-                     That's because each line of code declares what each element of the app is.</div>
+                
         </div>
     );
 };
