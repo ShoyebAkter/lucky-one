@@ -7,3 +7,10 @@
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+.choose{
+    color: #29DE92;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #E3F6F5;
+}

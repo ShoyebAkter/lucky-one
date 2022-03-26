@@ -1,13 +1,13 @@
 [
     {
         "id":"2",
-        "photo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFootball_player&psig=AOvVaw3WX-7THa9oE_3QJmpkVDSF&ust=1648318845202000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCEu7Xw4fYCFQAAAAAdAAAAABAD",
+        "photo": "../NQ9dKbqYg5Ngnr58EsCrig-970-80.jpg.webp",
         "name":"Cristiano Ronaldo",
         "age": 38
     },
     {
         "id":"3",
-        "photo":"../NQ9dKbqYg5Ngnr58EsCrig-970-80.jpg.webp",
+        "photo":"../Hh3hhb2KXkkAnSNcKWUX9X-970-80.jpg.webp",
         "name":"Cristiano Ronaldo",
         "age": 38
     },
@@ -19,7 +19,7 @@
     },
     {
         "id":"1",
-        "photo": "https://stock.adobe.com/images/id/490157367?as_audience=404&as_campaign=Freepik&get_facets=1&order=relevance&safe_search=1&as_content=api&k=footballer%20free%20pic&filterscontent_typephoto=1&tduid=7bffd26880d1daf512f224a17ad04736&as_channel=affiliate&as_campclass=redirect&as_source=arvato",
+        "photo": "../Mu3qvLCWoNWpWrVvaBzdCi-970-80.jpg.webp",
         "name":"Cristiano Ronaldo",
         "age": 38
     }

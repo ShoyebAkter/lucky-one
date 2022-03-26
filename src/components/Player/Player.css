@@ -1,11 +1,46 @@
 .player{
     width: 300px;
-    height: 350px;
-    border: 1px solid lightblue;
+    height: 410px;
+    border: 1px solid #95A0A7;
     border-radius: 8px;
+    position: relative;
 }
 .player img{
-    width: 256px;
-    height: 256px;
-    padding: 0 22px ;
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.player-info{
+    margin: 0 5px;
+}
+.player-info p{
+    margin: 0px;
+    margin-top: 5px;
+    
+}
+.player-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.btn{
+    width: 100%;
+    background: #BAE8E8;
+    border: none;
+    border-radius: 0px 0px 6px 6px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn .btn-text{
+    margin-right: 4px;
+}
+.btn:hover{
+    background-color: #ED8A0A;
 }
