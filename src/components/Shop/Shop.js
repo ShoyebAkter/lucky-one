@@ -4,9 +4,12 @@ import Player from '../Player/Player';
 import "./Shop.css";
 
 const Shop = () => {
+    
     const [players,setplayers]=useState([]);
     const [cart, setCart] = useState([]);
+    console.log(cart);
 
+    
     useEffect(()=>{
         fetch('products.json')
         .then(res=> res.json())
@@ -15,6 +18,7 @@ const Shop = () => {
 
     const handleAddToCart = (player) =>{
         const newCart = [...cart, player];
+        console.log(newCart)
         setCart(newCart);
     }
     
@@ -30,7 +34,7 @@ const Shop = () => {
                 }
             </div>
             <div >
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} setCart={setCart}></Cart>
             </div>
         </div>
     );

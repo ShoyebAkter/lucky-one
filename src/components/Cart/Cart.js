@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import Button from '../Button/Button';
 import "./Cart.css"
 
 const Cart = (props) => {
     const {cart}=props;
-    // console.log(cart);
+    const[newOne,setNewOne]=useState([]);
+    console.log(cart);
     const chooseOne=()=>{
-        console.log("clicked");
-    }
-    const resetData=()=>{
+        const num=Math.floor(Math.random()*3);
+        newOne=[cart[num]];
+        <div>{newOne.name}</div>
         
     }
+    const reload=()=>{
+        reload=window.location.reload()
+    }
+    
     return (
         <div className='players-cart'>
             <h4>Selected player</h4>
@@ -24,10 +29,10 @@ const Cart = (props) => {
             }
             <div>{cart.length>4 && <div>{alert("can not add more than 4 player")}</div>}</div>
             <div >
-                <button onClick={chooseOne}  className='choose'> Choose 1 player</button>
+                <button onClick={chooseOne}   className='choose'> Choose 1 player</button>
                 </div>
                 <div>
-                    <button onClick={resetData}  className='reset'>Choose Again</button>
+                    <button onClick={reload}  className='reset'>Choose Again</button>
                 </div>
         </div>
     );

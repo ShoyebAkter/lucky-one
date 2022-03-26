@@ -4,10 +4,12 @@
     border-radius: 10px;
     border: none;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 .reset{
     color: #E33E5A;
     padding: 8px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
